@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 public class UserController {
 
-    @GetMapping("/hello")
+    @GetMapping("/hellos")
     public String hello(){
-        return "hello";
+        return "hellos";
     }
 
     @PostMapping("/users/create")
